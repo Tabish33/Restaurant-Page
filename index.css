@@ -14,20 +14,27 @@
 
 nav{
   grid-column: 1/-1;
-  background: mistyrose;
+  background: #996633;
 }
 
-ul{
+nav ul{
   display: flex;
 }
 
-li{
+nav ul li{
   display: block;
   flex:0 1 140px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.menu{
+  padding: 30px; 
 }
 
 .description{
   grid-column: 1/-1;
+  background: mistyrose;
 }
 
 p{
