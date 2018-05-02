@@ -1,6 +1,10 @@
+html{
+  background: #332200;
+}
+
 #content{
   display: grid;
-  grid-template-columns: repeat(4,minmax(100px,280px));
+  grid-template-columns: repeat(4,minmax(70px,280px));
   justify-content:center;
 }
 
@@ -29,8 +33,23 @@ nav ul li{
   cursor: pointer;
 }
 
+header p{
+  color: white;
+  font-size: 4rem;
+  margin-top: 14px;
+  background: rgb(0,0,0,0.4);
+}
+
 .menu{
-  padding: 30px;
+  padding: 40px;
+}
+
+.menuTab{
+  color: white;
+}
+
+.phone-no{
+  padding: 40px;
 }
 
 .description{
