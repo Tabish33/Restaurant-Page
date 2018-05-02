@@ -51,6 +51,10 @@ header p{
   padding: 40px;
 }
 
+.menu li{
+  font-family: 'Maven Pro', sans-serif;
+}
+
 .homeTab{
   color: white;
 }
