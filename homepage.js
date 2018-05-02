@@ -4,6 +4,7 @@ const homepageLoader = () => {
 
       let header = document.createElement("header");
       header.classList.add('image');
+      header.innerHTML = `<p>Cafe Robusta</p>`
       parent.appendChild(header);
 
       let nav = document.createElement("nav");
@@ -30,7 +31,7 @@ const homepageLoader = () => {
 function homeContent(){
 
       let description = document.querySelector(".description");
-      
+
       description.innerHTML = `<p>Lorem ipsum dolor sit amet, consectetur
           adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
