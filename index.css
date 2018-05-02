@@ -26,10 +26,11 @@ nav ul li{
   flex:0 1 140px;
   font-family: Arial;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .menu{
-  padding: 30px; 
+  padding: 30px;
 }
 
 .description{
