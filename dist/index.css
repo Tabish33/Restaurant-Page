@@ -1,0 +1,35 @@
+#content{
+  display: grid;
+  grid-template-columns: repeat(4,minmax(100px,280px));
+  justify-content:center;
+}
+
+.image{
+  grid-column: 1/-1;
+  background-image: url("pic.jpg");
+  background-size: cover;
+  background-position:center;
+  height: 350px;
+}
+
+nav{
+  grid-column: 1/-1;
+  background: mistyrose;
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  display: block;
+  flex:0 1 140px;
+}
+
+.description{
+  grid-column: 1/-1;
+}
+
+p{
+  padding: 31px;
+}
