@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+
 html{
   background: #332200;
 }
@@ -28,9 +32,10 @@ nav ul{
 nav ul li{
   display: block;
   flex:0 1 140px;
-  font-family: Arial;
+  font-family: 'Crete Round', serif;
   font-weight: bold;
   cursor: pointer;
+
 }
 
 header p{
@@ -38,14 +43,23 @@ header p{
   font-size: 4rem;
   margin-top: 14px;
   background: rgb(0,0,0,0.4);
+  text-align: center;
+  font-family: 'Lobster', cursive;
 }
 
 .menu{
   padding: 40px;
 }
 
-.menuTab{
+.homeTab{
   color: white;
+}
+
+blockquote{
+  border-left: 4px solid brown;
+  padding: 12px;
+  color: gray;
+  font-family: Arial;
 }
 
 .phone-no{
@@ -57,6 +71,10 @@ header p{
   background: mistyrose;
 }
 
-p{
+.info{
   padding: 31px;
+}
+
+.info p{
+  font-family: 'Maven Pro', sans-serif;
 }
